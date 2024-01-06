@@ -1,0 +1,15 @@
+@keyframes slide {
+    0%{
+        transform: translateY(500px);
+    }
+    100%{
+       transform: translateY(0);
+    }
+    
+}
+
+.ope{
+    animation: slide;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
